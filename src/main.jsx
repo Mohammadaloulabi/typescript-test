@@ -7,7 +7,7 @@ import { BrowserRouter } from "react-router-dom";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     {/* من خلالها لم  يعد بالامكان ان نستدعي طلب جديد سينتقل لصفحة اخرى بدون اعادة تحميل او طلب جديد */}
-    <BrowserRouter>
+    <BrowserRouter basename="/typescript-test">
       <App />
     </BrowserRouter>
   </StrictMode>

@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <NavBar />
-
+        <img src="/typescript-test/vite.svg" alt="ff" />
       <Routes>
         {/* <Route path="/" element={<Home />} /> */}
         <Route index element={<Home />} />

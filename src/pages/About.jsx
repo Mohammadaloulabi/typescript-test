@@ -5,6 +5,7 @@ const About = () => {
   return (
     <div>
       <p>about page</p>
+      <img src="/typescript-test/vite.svg" alt="k" />
       <Outlet />
     </div>
   );
